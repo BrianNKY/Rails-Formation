@@ -1,0 +1,18 @@
+
+
+<h1> Post inspect </h2>
+<hr>
+<%= @posts.inspect %>
+
+<div style="margin-top: 1em;">
+<h1>Tout les articles </h1>
+<hr>
+<% @posts.each do |post| %>
+    <div style="border: 1px solid black; padding: 1em; margin: 0.5em; ">
+    <h2> <%= post.name %> </h2>
+    <p> <%= post.content %> </p>
+    </div>
+
+<% end %>
+
+</div>
