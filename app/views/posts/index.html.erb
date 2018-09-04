@@ -1,18 +1,35 @@
 
+<div class="container" style="margin-bottom: 1em">
 
-<h1> Post inspect </h2>
-<hr>
-<%= @posts.inspect %>
+    <h1> Post inspect </h2>
+    <hr>
+    <%= @posts.inspect %>
 
-<div style="margin-top: 1em;">
-<h1>Tout les articles </h1>
-<hr>
-<% @posts.each do |post| %>
-    <div style="border: 1px solid black; padding: 1em; margin: 0.5em; ">
-    <h2> <%= post.name %> </h2>
-    <p> <%= post.content %> </p>
-    </div>
+</div>
 
-<% end %>
+<div class="container">
+
+    <h1>Tout les articles     <a href="<%= new_post_path %>" class="btn btn-success"> Créer un nouvel article </a> </h1> 
+
+    <hr>
+
+    <% @posts.each do |post| %>
+
+        <div style="border: 1px solid black; padding: 1em; margin: 0.5em; ">
+
+            <h2> <%= post.name %> </h2>
+            <p> <%= post.content %> </p>
+
+            <div class="row">
+
+                <a href="<%= post_path(post.id) %>" class="btn btn-primary"> Lire la suite </a>
+                <a href="<%= edit_post_path(post.id) %>" class="btn btn-primary"> Editer l'article </a>
+                <a href="<%= post_path(post.id) %>" class="btn btn-danger" data-method="DELETE" data-confirm="Etes vous sur ?"> Supprimer l'article </a>
+
+            </div>
+
+        </div>
+
+    <% end %>
 
 </div>
