@@ -1,0 +1,1415 @@
+Started GET "/" for 127.0.0.1 at 2018-09-04 21:34:20 +0200
+  
+Mysql2::Error::ConnectionError (Can't connect to MySQL server on 'localhost' (10061)):
+  
+mysql2-0.5.2-x86 (mingw32) lib/mysql2/client.rb:90:in `connect'
+mysql2-0.5.2-x86 (mingw32) lib/mysql2/client.rb:90:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-09-04 21:34:31 +0200
+  
+Mysql2::Error::ConnectionError (Can't connect to MySQL server on 'localhost' (10061)):
+  
+mysql2-0.5.2-x86 (mingw32) lib/mysql2/client.rb:90:in `connect'
+mysql2-0.5.2-x86 (mingw32) lib/mysql2/client.rb:90:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-09-04 21:35:58 +0200
+  
+ActiveRecord::NoDatabaseError (Unknown database 'rorformation_development'):
+  
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:13:in `mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/phpmyadmin" for 127.0.0.1 at 2018-09-04 21:37:00 +0200
+  
+ActiveRecord::NoDatabaseError (Unknown database 'rorformation_development'):
+  
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:13:in `mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-09-04 21:38:10 +0200
+  
+ActiveRecord::NoDatabaseError (Unknown database 'rorformation_development'):
+  
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:13:in `mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-09-04 21:38:53 +0200
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 102ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 21:56:57 +0200
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/salut"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started PUT "/__web_console/repl_sessions/800138b0724d70f328e20bb5dbcd1b22" for 127.0.0.1 at 2018-09-04 21:57:15 +0200
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:00:43 +0200
+Processing by PagesController#salut as HTML
+Completed 406 Not Acceptable in 348ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#salut is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:02:21 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1125ms (Views: 772.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:08:03 +0200
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 66ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:09:26 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 76ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:11:43 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 71ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:11:47 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 72ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:12:24 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 66ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:12:55 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 73ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:13:50 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 63ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:13:52 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 64ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:13:53 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 79ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:13:54 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:13:55 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:13:55 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 72ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:13:56 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 73ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:13:57 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:13:58 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:13:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 67ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:13:59 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 69ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:14:01 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:14:03 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 75ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:14:07 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 74ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:14:08 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:14:10 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:14:11 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:14:13 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 66ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:14:15 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 68ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:14:16 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 64ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:14:19 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 64ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut/marc" for 127.0.0.1 at 2018-09-04 22:15:02 +0200
+  
+SyntaxError (D:/Lab/Ruby/rorformation/config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/salut/:name, to: 'pages#salut'
+                               ^):
+  
+config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/salut/marc" for 127.0.0.1 at 2018-09-04 22:16:10 +0200
+  
+SyntaxError (D:/Lab/Ruby/rorformation/config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/salut/:name, to: 'pages#salut'
+                               ^):
+  
+config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/salut/marc" for 127.0.0.1 at 2018-09-04 22:18:00 +0200
+  
+SyntaxError (D:/Lab/Ruby/rorformation/config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/salut/:name, to: 'pages#salut'
+                               ^):
+  
+config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/salut/marc" for 127.0.0.1 at 2018-09-04 22:19:20 +0200
+Processing by PagesController#salut as HTML
+  Parameters: {"name"=>"marc"}
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (296.0ms)
+Completed 500 Internal Server Error in 330ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `name' for #<#<Class:0xc278628>:0xc27f8a0>
+Did you mean?  @name):
+    4: 
+    5:         <div class="col-lg-6 col-md-6 col-sm-6">
+    6: 
+    7:             <p> Salut <%= name %> comment ça va ? <%= 1 + 1 %> </p>
+    8: 
+    9:         </div>
+   10: 
+  
+app/views/pages/salut.html.erb:7:in `_app_views_pages_salut_html_erb___293943937_101959092'
+Started GET "/salut/marc" for 127.0.0.1 at 2018-09-04 22:20:38 +0200
+Processing by PagesController#salut as HTML
+  Parameters: {"name"=>"marc"}
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 69ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut/marc" for 127.0.0.1 at 2018-09-04 22:20:50 +0200
+Processing by PagesController#salut as HTML
+  Parameters: {"name"=>"marc"}
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 82ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut/marc" for 127.0.0.1 at 2018-09-04 22:20:56 +0200
+Processing by PagesController#salut as HTML
+  Parameters: {"name"=>"marc"}
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 78ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut/marc" for 127.0.0.1 at 2018-09-04 22:21:26 +0200
+Processing by PagesController#salut as HTML
+  Parameters: {"name"=>"marc"}
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 78ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut/" for 127.0.0.1 at 2018-09-04 22:21:34 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/salut"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:21:45 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/salut"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/salut/marc" for 127.0.0.1 at 2018-09-04 22:21:55 +0200
+Processing by PagesController#salut as HTML
+  Parameters: {"name"=>"marc"}
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 99ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:22:20 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 77ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:22:23 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 75ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut/lol" for 127.0.0.1 at 2018-09-04 22:22:27 +0200
+Processing by PagesController#salut as HTML
+  Parameters: {"name"=>"lol"}
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 74ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:22:29 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 88ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:23:07 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 71ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:23:08 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:23:09 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 74ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:23:10 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 78ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:23:10 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 80ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:23:11 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 89ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:23:12 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 88ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:23:13 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 74ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:23:13 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:23:14 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 82ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:23:15 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:23:17 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 74ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:24:07 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 739ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:7: syntax error, unexpected '<'
+...reeze;@output_buffer.append=( <b> @name  </b> );@output_buff...
+...                               ^
+D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:7: unknown regexp option - p
+unmatched close parenthesis: /b> );@output_buffer.safe_append='  comment ça va ? '.freeze;@output_buffer.append=( 1 + 1 );@output_buffer.safe_append=' </
+D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:10: syntax error, unexpected '<', expecting ')'
+        </div>
+         ^
+D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:12: unknown regexp options - dv
+D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:14: syntax error, unexpected '<'
+</div>'.freeze;
+ ^
+D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:14: unterminated regexp meets end of file):
+  
+app/views/pages/salut.html.erb:7: syntax error, unexpected '<'
+app/views/pages/salut.html.erb:7: unknown regexp option - p
+app/views/pages/salut.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/pages/salut.html.erb:12: unknown regexp options - dv
+app/views/pages/salut.html.erb:14: syntax error, unexpected '<'
+app/views/pages/salut.html.erb:14: unterminated regexp meets end of file
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:24:11 +0200
+  [1m[35m (574.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:24:15 +0200
+Completed 200 OK in 1755ms (Views: 1701.8ms | ActiveRecord: 0.0ms)
+
+
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:7: syntax error, unexpected '<'
+...reeze;@output_buffer.append=( <b> @name  </b> );@output_buff...
+...                               ^
+D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:7: unknown regexp option - p
+unmatched close parenthesis: /b> );@output_buffer.safe_append='  comment ça va ? '.freeze;@output_buffer.append=( 1 + 1 );@output_buffer.safe_append=' </
+D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:10: syntax error, unexpected '<', expecting ')'
+        </div>
+         ^
+D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:12: unknown regexp options - dv
+D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:14: syntax error, unexpected '<'
+</div>'.freeze;
+ ^
+D:/Lab/Ruby/rorformation/app/views/pages/salut.html.erb:14: unterminated regexp meets end of file):
+  
+app/views/pages/salut.html.erb:7: syntax error, unexpected '<'
+app/views/pages/salut.html.erb:7: unknown regexp option - p
+app/views/pages/salut.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/pages/salut.html.erb:12: unknown regexp options - dv
+app/views/pages/salut.html.erb:14: syntax error, unexpected '<'
+app/views/pages/salut.html.erb:14: unterminated regexp meets end of file
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:24:26 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 77ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:25:05 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 77ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:28:09 +0200
+  
+SyntaxError (D:/Lab/Ruby/rorformation/config/routes.rb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ut/:name', to: 'pages#salut' as 'salut' # Utilisation d'un p...
+...                               ^):
+  
+config/routes.rb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:28:15 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/salut"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:28:37 +0200
+  
+SyntaxError (D:/Lab/Ruby/rorformation/config/routes.rb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ut/:name', to: 'pages#salut' as 'salut' # Utilisation d'un p...
+...                               ^):
+  
+config/routes.rb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:29:08 +0200
+  
+SyntaxError (D:/Lab/Ruby/rorformation/config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/salut/', to: 'pages#salut' as 'salut' # Route vers salut
+                                     ^):
+  
+config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:30:01 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 72ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:30:10 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/salut"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:30:20 +0200
+  
+ArgumentError (Invalid route name, already in use: 'salut' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:6:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:30:28 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 73ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:30:29 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 70ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:30:32 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:30:36 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 82ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut/lol" for 127.0.0.1 at 2018-09-04 22:30:39 +0200
+Processing by PagesController#salut as HTML
+  Parameters: {"name"=>"lol"}
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 67ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut/lol" for 127.0.0.1 at 2018-09-04 22:31:57 +0200
+  
+SyntaxError (D:/Lab/Ruby/rorformation/config/routes.rb:5: syntax error, unexpected ')', expecting keyword_end
+  get '/salut(/:name'), to: 'pages#salut', as: 'sal...
+                      ^
+D:/Lab/Ruby/rorformation/config/routes.rb:5: syntax error, unexpected ',', expecting keyword_end
+...ut(/:name'), to: 'pages#salut', as: 'salut' # Utilisation d'...
+...                               ^):
+  
+config/routes.rb:5: syntax error, unexpected ')', expecting keyword_end
+config/routes.rb:5: syntax error, unexpected ',', expecting keyword_end
+Started GET "/salut/lol" for 127.0.0.1 at 2018-09-04 22:32:19 +0200
+Processing by PagesController#salut as HTML
+  Parameters: {"name"=>"lol"}
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:32:21 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 72ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:32:22 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 81ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:32:22 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:32:32 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 71ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:32:36 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 79ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:32:37 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:32:37 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 72ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:32:38 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 84ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:32:38 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 77ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-04 22:32:39 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 74ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:32:39 +0200
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:39:39 +0200
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (79.9ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) COLLATE utf8_bin NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:4
+  [1m[35m (35.0ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) COLLATE utf8_bin NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to CreatePostsTable (20180904203759)
+  [1m[35m (28.0ms)[0m  [1m[35mCREATE TABLE `posts` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `content` text)[0m
+  ↳ db/migrate/20180904203759_create_posts_table.rb:3
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::SchemaMigration Create (2.0ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180904203759')[0m
+  ↳ bin/rails:4
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Create (0.0ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2018-09-04 20:40:03', '2018-09-04 20:40:03')[0m
+  ↳ bin/rails:4
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Started GET "/salut" for 127.0.0.1 at 2018-09-04 22:46:39 +0200
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#salut as HTML
+  Rendering pages/salut.html.erb within layouts/application
+  Rendered pages/salut.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to CreatePostsTable (20180904203759)
+  [1m[35m (13.9ms)[0m  [1m[35mDROP TABLE `posts`[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::SchemaMigration Destroy (4.0ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20180904203759'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to CreatePostsTable (20180904203759)
+  [1m[35m (40.0ms)[0m  [1m[35mCREATE TABLE `posts` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `content` longtext)[0m
+  ↳ db/migrate/20180904203759_create_posts_table.rb:3
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.0ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180904203759')[0m
+  ↳ bin/rails:4
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to RenamePostTitleToName (20180904205204)
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to RenamePostTitleToName (20180904205204)
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to RenamePostTitleToName (20180904205204)
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to RenamePostTitleToName (20180904205204)
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to RenamePostTitleToName (20180904205204)
+  [1m[35m (12.0ms)[0m  [1m[35mALTER TABLE `posts` CHANGE `title` `name` varchar(255) DEFAULT NULL[0m
+  ↳ db/migrate/20180904205204_rename_post_title_to_name.rb:4
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180904205204')[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to RenamePostTitleToName (20180904205204)
+  [1m[35m (13.0ms)[0m  [1m[35mALTER TABLE `posts` CHANGE `name` `title` varchar(255) DEFAULT NULL[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::SchemaMigration Destroy (2.2ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20180904205204'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to RenamePostTitleToName (20180904205204)
+  [1m[35m (10.0ms)[0m  [1m[35mALTER TABLE `posts` CHANGE `title` `name` varchar(255) DEFAULT NULL[0m
+  ↳ db/migrate/20180904205204_rename_post_title_to_name.rb:4
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.0ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180904205204')[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to RenamePostTitleToName (20180904205204)
+  [1m[35m (11.2ms)[0m  [1m[35mALTER TABLE `posts` CHANGE `name` `title` varchar(255) DEFAULT NULL[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::SchemaMigration Destroy (1.0ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20180904205204'[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT GET_LOCK('3027415327644969240', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to RenamePostTitleToName (20180904205204)
+  [1m[35m (11.1ms)[0m  [1m[35mALTER TABLE `posts` CHANGE `title` `name` varchar(255) DEFAULT NULL[0m
+  ↳ db/migrate/20180904205204_rename_post_title_to_name.rb:4
+  [1m[35m (70.0ms)[0m  [1m[35mALTER TABLE `posts` ADD `created_at` datetime NOT NULL[0m
+  ↳ db/migrate/20180904205204_rename_post_title_to_name.rb:5
+  [1m[35m (52.2ms)[0m  [1m[35mALTER TABLE `posts` ADD `updated_at` datetime NOT NULL[0m
+  ↳ db/migrate/20180904205204_rename_post_title_to_name.rb:5
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180904205204')[0m
+  ↳ bin/rails:4
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('3027415327644969240')[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
