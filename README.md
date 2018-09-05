@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Formation Grafikart
+https://www.grafikart.fr/formations/ruby-on-rails
 
-Things you may want to cover:
+Résumé :
 
-* Ruby version
+* Introduction
 
-* System dependencies
+* Installation
 
-* Configuration
+* Première page
 
-* Database creation
+* Migrations
 
-* Database initialization
+* Models / Controllers
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* CRUD à la main, Scaffold
