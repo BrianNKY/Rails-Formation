@@ -6,5 +6,6 @@ class PagesController < ApplicationController
     def salut # Controller de la page salut
         @name = params[:name]
     end
+    
 
 end
