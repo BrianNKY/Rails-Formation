@@ -1,0 +1,26 @@
+<h1> Les catégories </h1>
+
+<hr>
+
+<div class="container">
+
+<% @categories.each do |category| %>
+
+    <p> <%= category.id %> 
+    <%= category.name %>  </p>
+
+    <div class="row">
+
+        <a href="<%= edit_category_path(category.id) %>" class="col-lg-6 btn btn-primary"> Editer la catégorie </a>
+        
+        <a href="<%= category_path(category.id) %>" class="col-lg-6 btn btn-danger" data-method="delete" data-confirm="sur?"> Supprimer la catégorie </a>
+
+    </div>
+    
+    <hr>
+
+<% end %>
+
+</div>
+
+<p> <a href="<%= new_category_path %>" class="col-lg-12 btn btn-success"> Créer une nouvelle catégorie </a> </p>
