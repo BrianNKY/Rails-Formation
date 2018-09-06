@@ -2,11 +2,10 @@ class PostsController < ApplicationController
 
   before_action :set_post, only: [:update, :edit, :show, :destroy]
   # Permet d'executer l'action avant les méthodes et éviter qu'on répète le code
-  # skip_before_action :veryfy_authentification_token
+  # skip_before_action :verify_authentification_token
 
   def index
     @posts = Post.all
-
       respond_to do |format|
         format.html
         format.json { render json: @posts} # Rendre en JSON nos élements @posts
@@ -22,8 +21,14 @@ class PostsController < ApplicationController
   end
 
   def update
-    @post.update(post_params) # On met à jour
-    redirect_to posts_path # On redirige
+
+    if # On test notre formulaire
+      @post.update(post_params) # On met à jour
+      redirect_to posts_path, success: "Article modifié avec succès" # On redirige
+    else # Si les qu'on veut vérifier ne correspondent pas à nos attentes, on le renvoit sur la même page
+      render 'edit'
+    end
+
   end
 
   def new
@@ -31,8 +36,15 @@ class PostsController < ApplicationController
   end
 
   def create
+
     post = Post.create(post_params)
-    redirect_to post_path(post.id)
+    if post.valid?
+      post.save
+      redirect_to post_path(post.id), success: "Article créée avec succès"
+    else
+      @post = post
+      render 'new'
+    end
   end
 
   def destroy

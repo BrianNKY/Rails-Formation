@@ -1,5 +1,19 @@
 <h1> Editer l'article </h1>
 
+<% if @post.invalid? %>
+
+    <div class="alert alert-danger">
+
+        <% @post.errors.full_messages.each do |message| %>
+
+            <%= message %>
+
+        <% end %>
+        
+    </div>
+
+<% end %>
+
 <hr>
 
 <%= form_for @post do |f| %> <%# formulaire pour l'ORM %>
@@ -25,7 +39,5 @@
         <button type="submit" class="btn btn-primary col-lg-12"> Modifier l'article </button>
 
     </div>
-
-
 
 <% end %>
