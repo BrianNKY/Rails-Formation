@@ -18,6 +18,8 @@ class Post < ApplicationRecord
      # in:
      # acceptance:
 
+    scope :published, -> { where(online: 0) }
+
     # JSON render function modified for all the model Post (Name, ID, Created_At)
     def as_json (options = nil)
         super(only: [:name, :id, :created_at])

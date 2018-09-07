@@ -5,7 +5,7 @@ class PostsController < ApplicationController
   # skip_before_action :verify_authentification_token
 
   def index
-    @posts = Post.all
+    @posts = Post.published.all
       respond_to do |format|
         format.html
         format.json { render json: @posts} # Rendre en JSON nos élements @posts
